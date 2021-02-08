@@ -35,11 +35,11 @@ You are going to be emulating a content management system by controlling the con
 * [x] Using your selectors, update the content to match the example file.
 * [x] Remember to update the src attributes on images -->
 
-#### Add new content
+<!-- #### Add new content
 
 * [x] Change the color of the navigation text to be green.
-* [ ] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
-* [ ] Check your work by looking at the [original html](original.html) in the browser
+* [x] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
+* [x] Check your work by looking at the [original html](original.html) in the browser -->
 
 ### Task 3: Stretch
 

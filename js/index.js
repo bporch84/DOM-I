@@ -52,10 +52,21 @@ a[3].textContent = siteContent["nav"]["nav-item-4"];
 a[4].textContent = siteContent["nav"]["nav-item-5"];
 a[5].textContent = siteContent["nav"]["nav-item-6"];
 
+const nav = document.querySelector("nav");
+const more = document.createElement("a");
+more.textContent = "More";
+nav.appendChild(more);
+more.style.color = "green";
+
+const hello = document.createElement("a");
+hello.textContent = "Hello"
+nav.prepend(hello);
+hello.style.color = "green";
+
 a.forEach(element => element.style.color ="green");
 
 const h1 = document.querySelector(".cta-text h1");
-h1.textContent = siteContent["cta"]["h1"];
+h1.innerHTML = siteContent["cta"]["h1"].split(" ").join("<br>");
 
 const button = document.querySelector(".cta-text button");
 button.textContent = siteContent["cta"]["button"];
